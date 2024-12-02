@@ -1,0 +1,169 @@
+p{
+    margin: 0;
+}
+body{
+    padding: 8px;
+    position: relative;
+}
+header{
+    display: flex;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: end;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 73px;
+}
+.g-more{
+    font-size: 12px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.g-grid{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    margin-left: 8px;
+    opacity: 0.6;
+}
+.sign-in{
+    padding: 7px 13px;
+    border: none;
+    background-color: rgb(65, 132, 255);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+.google-logo{
+    height: 73px;
+    margin-bottom: 20px;
+    -webkit-user-drag: none;
+}
+.search-div{
+    position:relative;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    margin-bottom: 30px;
+}
+.search-bar{
+    width: 380px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid rgb(223, 223, 223);
+    outline: none;
+    padding-left: 35px;
+    vertical-align: middle;
+    font-size: 16px;
+    padding-right: 40px;
+    -webkit-user-drag: none;
+    transition: box-shadow 0.15s;
+}
+.search-bar:hover{
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.20);
+    border: none;
+}
+.voice-search{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    -webkit-user-drag: none;
+    vertical-align: middle;
+}
+.voice-search:active{
+    opacity: 0.7;
+}
+.search-lens{
+    width: 17px;
+    position: absolute;
+    left: 11px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    vertical-align: middle;
+}
+.search-lens:active{
+    opacity: 0.7;
+}
+.g-suggest{
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: none;
+    color: rgb(94, 94, 94);
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+.g-suggest:hover{
+    border: 1px solid rgb(182, 182, 182);
+    padding: 7px 14px;
+    border-radius: 3px;
+    color: black;
+}
+.suggest-div{
+    margin-bottom: 25px;
+}
+.g-lang{
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    display: inline-block;
+}
+.g-lang a{
+    margin-left: 5px;
+}
+.container{
+    font-family: Roboto, Arial;
+}
+footer{
+    position: fixed;
+    background-color: rgb(248, 242, 242);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(99, 99, 99);
+}
+.country{
+    padding: 8px 0px;
+    border: 1px solid rgb(226, 226, 226);
+    padding-left:30px;
+    padding-right: 30px;
+    
+}
+.left-right-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+    margin-left:30px;
+    margin-right: 30px;
+    
+}
+.left-right-container a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+
+}
+.left a{
+    margin-right: 32px;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+.right a{
+    margin-left: 32px;
+}
